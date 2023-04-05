@@ -12,7 +12,7 @@ function parolaPalindroma (wordAsk){
     console.log(wordAskSplit);
 
     //inverto le lettere della parola nell'array
-    let wordAskReverse = wordAskSplit.reverse();
+    let wordAskReverse = wordAskSplit.reverse('');
     console.log(wordAskSplit);
 
     //riunisco le lettere, questa volta invertite
